@@ -8,7 +8,7 @@ int main()
     cout << "Enter a number: ";
     cin >> n;
 
-    for(; n > 0; n = n / 10)
+    for( ; n > 0; n = n / 10)
     {
         int digit = n % 10;
 
